@@ -15,7 +15,7 @@ files:
           self.priority_queue: dict[int, deque] = {
                       priority: deque() for priority in range(self.HIGH_PRIORITY, self.LOW_PRIORITY + 1)
                   }
-        selected: false
+        selected: true
         status: Unchecked
       - offset: 601
         length: 37
@@ -25,7 +25,7 @@ files:
           offset: 601
         initialized_from_dependency: false
         encrypted_possible_answer: "self.priority_queue[priority].append(elem)"
-        selected: false
+        selected: true
         status: Unchecked
       - offset: 862
         length: 37
