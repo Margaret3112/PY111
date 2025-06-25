@@ -24,7 +24,7 @@ files:
         selected: true
         status: Failed
       - offset: 713
-        length: 55
+        length: 54
         placeholder_text: "...  # TODO реализовать метод dequeue"
         initial_state:
           length: 37
@@ -33,7 +33,7 @@ files:
         encrypted_possible_answer: '...'
         selected: true
         status: Failed
-      - offset: 1250
+      - offset: 1249
         length: 54
         placeholder_text: "...  # TODO реализовать метод peek"
         initial_state:
@@ -43,7 +43,7 @@ files:
         encrypted_possible_answer: '...'
         selected: true
         status: Failed
-      - offset: 1376
+      - offset: 1375
         length: 51
         placeholder_text: "...  # TODO реализовать метод clear"
         initial_state:
@@ -53,7 +53,7 @@ files:
         encrypted_possible_answer: '...'
         selected: true
         status: Failed
-      - offset: 1508
+      - offset: 1507
         length: 57
         placeholder_text: "...  # TODO реализовать метод __len__"
         initial_state:
@@ -76,6 +76,6 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: "Tue, 03 Jun 2025 17:45:30 UTC"
+  time: "Wed, 25 Jun 2025 15:43:55 UTC"
 record: -1
 solution_hidden: false

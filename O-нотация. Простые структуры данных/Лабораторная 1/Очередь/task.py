@@ -28,7 +28,7 @@ class Queue:
 
         :return: Извлеченный с начала очереди элемент.
         """
-        return self._stack[0]  # TODO реализовать метод dequeue
+        return self._stack[0] # TODO реализовать метод dequeue
 
     def peek(self, ind: int = 0) -> Any:
         """
