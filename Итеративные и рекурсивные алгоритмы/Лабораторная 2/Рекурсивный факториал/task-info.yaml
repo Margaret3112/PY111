@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 203
-        length: 62
+        length: 66
         placeholder_text: "...  # TODO реализовать рекурсивный алгоритм нахождения фак\
       ториала"
         initial_state:
@@ -12,7 +12,7 @@ files:
           offset: 203
         initialized_from_dependency: false
         encrypted_possible_answer: '...'
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
   - name: tests/test_task.py
@@ -31,5 +31,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Tue, 01 Jul 2025 19:37:49 UTC"
+  time: "Fri, 04 Jul 2025 15:16:42 UTC"
 record: -1

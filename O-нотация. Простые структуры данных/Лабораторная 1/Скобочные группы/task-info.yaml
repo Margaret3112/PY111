@@ -3,8 +3,8 @@ files:
   - name: task.py
     visible: true
     placeholders:
-      - offset: 540
-        length: 45
+      - offset: 280
+        length: 49
         placeholder_text: "...  # TODO реализовать проверку скобочной группы"
         initial_state:
           length: 49
@@ -26,6 +26,6 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Tue, 01 Jul 2025 13:31:17 UTC"
+  time: "Fri, 04 Jul 2025 15:16:26 UTC"
 record: -1
 solution_hidden: false

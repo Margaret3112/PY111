@@ -3,8 +3,8 @@ files:
   - name: task.py
     visible: true
     placeholders:
-      - offset: 531
-        length: 39
+      - offset: 560
+        length: 36
         placeholder_text: "...  # TODO реализовать обход в глубину"
         initial_state:
           length: 39
@@ -24,8 +24,8 @@ files:
               recursion_dfs(start_node)
           
               return path
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Failed
     learner_created: false
   - name: tests/test_task.py
     visible: false
@@ -40,5 +40,11 @@ files:
     visible: true
     is_binary: true
     learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: "7 != 1 : Проверьте возвращаемый список - в него либо затесались лишние\
+    \ элементы, либо не хватает элементов."
+  time: "Fri, 04 Jul 2025 16:32:47 UTC"
+  expected: 7
+  actual: 1
 record: -1

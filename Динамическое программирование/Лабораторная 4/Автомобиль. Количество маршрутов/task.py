@@ -10,7 +10,11 @@ def car_paths(n: int, m: int) -> List[List[int]]:
 
     :return: Новую таблицу с посчитанным количеством маршрутов в каждую клетку
     """
-    ...  # TODO решить задачу с помощью динамического программирования
+      # TODO решить задачу с помощью динамического программирования
+    table =[n][m]
+
+    for row_index in range(n - 1):
+        table[row_index + 1][0] += table[row_index][0]
 
 
 if __name__ == '__main__':

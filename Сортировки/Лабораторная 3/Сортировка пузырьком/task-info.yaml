@@ -3,8 +3,8 @@ files:
   - name: task.py
     visible: true
     placeholders:
-      - offset: 520
-        length: 53
+      - offset: 525
+        length: 48
         placeholder_text: "...  # TODO реализовать алгоритм сортировки пузырьком"
         initial_state:
           length: 53
@@ -30,7 +30,7 @@ files:
 status: Failed
 feedback:
   message: "[] != None : Пустая последовательность должна сортироваться :)"
-  time: "Tue, 01 Jul 2025 19:49:40 UTC"
+  time: "Fri, 04 Jul 2025 15:16:51 UTC"
   expected: "[]"
   actual: None
 record: -1

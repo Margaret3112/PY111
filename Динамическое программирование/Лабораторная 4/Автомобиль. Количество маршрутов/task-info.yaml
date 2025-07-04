@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 347
-        length: 66
+        length: 63
         placeholder_text: "...  # TODO решить задачу с помощью динамического программи\
       рования"
         initial_state:
@@ -12,7 +12,7 @@ files:
           offset: 347
         initialized_from_dependency: false
         encrypted_possible_answer: '...'
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: tests/test_task.py
