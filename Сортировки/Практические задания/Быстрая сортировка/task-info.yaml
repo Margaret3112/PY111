@@ -3,8 +3,8 @@ files:
   - name: task.py
     visible: true
     placeholders:
-      - offset: 752
-        length: 46
+      - offset: 495
+        length: 51
         placeholder_text: "...  # TODO реализовать алгоритм быстрой сортировки"
         initial_state:
           length: 51
@@ -20,8 +20,8 @@ files:
                       [item for item in container if item == pivot] +
                       sort([item for item in container if item > pivot])
               )
-        selected: true
-        status: Failed
+        selected: false
+        status: Unchecked
     learner_created: false
   - name: tests/test_task.py
     visible: false
@@ -36,8 +36,5 @@ files:
     visible: true
     is_binary: true
     learner_created: false
-status: Failed
-feedback:
-  message: Error
-  time: "Wed, 25 Jun 2025 16:03:50 UTC"
+status: Unchecked
 record: -1

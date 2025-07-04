@@ -15,3 +15,10 @@ def sort(container: Sequence[int]) -> Sequence[int]:
     """
     
     # TODO реализовать алгоритм сортировки пузырьком
+    min_ind = 0
+    min_value = 0
+    for i, value in enumerate(container):
+        if container[min_ind] < value:
+            min_ind = i
+            min_value = value
+            return container

@@ -11,7 +11,7 @@ files:
           offset: 486
         initialized_from_dependency: false
         encrypted_possible_answer: '...'
-        selected: true
+        selected: false
         status: Unchecked
     learner_created: false
   - name: tests/test_task.py

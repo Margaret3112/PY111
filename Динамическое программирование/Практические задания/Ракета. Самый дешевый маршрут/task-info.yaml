@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 355
-        length: 49
+        length: 53
         placeholder_text: "...  # TODO рассчитать таблицу стоимостей перемещений"
         initial_state:
           length: 53
@@ -27,8 +27,8 @@ files:
                       table[i][j] += min(table[i - 1][j], table[i][j - 1])
           
               return table
-        selected: true
-        status: Failed
+        selected: false
+        status: Unchecked
     learner_created: false
   - name: tests/test_task.py
     visible: false
@@ -43,11 +43,5 @@ files:
     visible: true
     is_binary: true
     learner_created: false
-status: Failed
-feedback:
-  message: "None != [[2, 9, 18, 21], [14, 13, 14, 23], [15, 18, 16, 21]] : Таблица\
-    \ стоимостей рассчитана неверно :("
-  time: "Wed, 25 Jun 2025 17:18:27 UTC"
-  expected: None
-  actual: "[[2, 9, 18, 21], [14, 13, 14, 23], [15, 18, 16, 21]]"
+status: Unchecked
 record: -1

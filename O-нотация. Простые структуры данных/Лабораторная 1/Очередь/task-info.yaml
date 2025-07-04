@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: '...'
         selected: true
-        status: Failed
+        status: Solved
       - offset: 431
         length: 58
         placeholder_text: "...  # TODO реализовать метод enqueue"
@@ -22,9 +22,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: '...'
         selected: true
-        status: Failed
+        status: Solved
       - offset: 713
-        length: 54
+        length: 123
         placeholder_text: "...  # TODO реализовать метод dequeue"
         initial_state:
           length: 37
@@ -32,8 +32,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: '...'
         selected: true
-        status: Failed
-      - offset: 1249
+        status: Solved
+      - offset: 1318
         length: 54
         placeholder_text: "...  # TODO реализовать метод peek"
         initial_state:
@@ -42,8 +42,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: '...'
         selected: true
-        status: Failed
-      - offset: 1375
+        status: Solved
+      - offset: 1444
         length: 51
         placeholder_text: "...  # TODO реализовать метод clear"
         initial_state:
@@ -52,8 +52,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: '...'
         selected: true
-        status: Failed
-      - offset: 1507
+        status: Solved
+      - offset: 1576
         length: 57
         placeholder_text: "...  # TODO реализовать метод __len__"
         initial_state:
@@ -62,7 +62,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: '...'
         selected: true
-        status: Failed
+        status: Solved
     learner_created: false
   - name: tests/test_task.py
     visible: false
@@ -73,9 +73,9 @@ files:
   - name: tests/__init__.py
     visible: false
     learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: "Wed, 25 Jun 2025 15:43:55 UTC"
+  message: Congratulations!
+  time: "Tue, 01 Jul 2025 12:45:10 UTC"
 record: -1
 solution_hidden: false
